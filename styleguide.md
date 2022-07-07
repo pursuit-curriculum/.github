@@ -149,6 +149,43 @@ If you are referring to a function, include the `()` symbols when discussing it.
 Try changing the text in your `listener()` function in your `server.js` file. You should see the new message almost immediately show up in your terminal.
 ```
 
+### Code blocks
+
+If you're writing a block of code, make sure to use proper formatting techniques. After the three back ticks, type the word JavaScript.
+
+```md
+    ```javascript
+    console.log(some message);
+    const h1 = document.querySelector('h1');
+    h1.innerText = "Hello, world!";
+    ```
+```
+
+This will result in the following.
+
+```javascript
+console.log(some message);
+const h1 = document.querySelector('h1');
+h1.innerText = "Hello, world!";
+```
+
+If you need to label the block of code as if it were in a file, add a comment at the very top with the file name.
+
+```javascript
+// main.js
+console.log(some message);
+const h1 = document.querySelector('h1');
+h1.innerText = "Hello, world!";
+```
+
+### Keyboard shortcuts
+
+When referring to specific keys, use the `kbd` element.
+
+```
+<kbd>Command</kbd>+<kbd>C</kbd>
+```
+
 ### Reference Links
 
 If we are linking to a part of an external website, put the name of the website, followed by a colon, and then the title of the website.
