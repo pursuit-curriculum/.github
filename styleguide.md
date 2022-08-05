@@ -178,6 +178,16 @@ const h1 = document.querySelector('h1');
 h1.innerText = "Hello, world!";
 ```
 
+### Directory names
+
+When referencing a directory, use the trailing slash to show that it's a directory.
+
+```
+my-folder/
+```
+
+This should be true for inline code blocks as well. Example: `my-folder/`.
+
 ### Keyboard shortcuts
 
 When referring to specific keys, use the `kbd` element.
